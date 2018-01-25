@@ -10,6 +10,6 @@
 - u	:-Unique id
 - g	:-It has 2 cases,
   - 0 - Gmail link tracking
-  - 1 - Npn Gmail link tracking
+  - 1 - Non Gmail link tracking
 - m	:-Message id
 - eu	:-Encrypted user
