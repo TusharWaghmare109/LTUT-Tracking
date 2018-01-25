@@ -18,13 +18,18 @@
   In this Example,
 - **id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=** 
   - after decryption id gives,
-    - msgtype
+    - msgtype  
+      - Eg.'H' 
     - fwdid
+      - Eg. '00000002'
     - messageid
+      - Eg. '00000005'
     - userid
+      - Eg. '1'
     - email
+      - Eg. 'gaurang.acharya@netcore.co.in'
 - **data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=**
-  - after decryption id gives,
+  - after decryption data gives,
     - tr_cid 
     - tr_mid
     - tr_uid
@@ -34,5 +39,6 @@
 - **test=2**
  
 ## Location :- /opt/transmail/libs/EMM/mailauth.pm
+
 ## Subroutines of handle_ptrack
 - check_clientid_in_track
