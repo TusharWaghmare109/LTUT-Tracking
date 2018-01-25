@@ -13,7 +13,10 @@
   - 1 - Non Gmail link tracking
 - m	:-Message id
 - eu	:-Encrypted user
-#### For eg. *http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2* 
+
+/play secret
+
+#### For eg. :scream: *http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2* 
   In this Example,
 - **id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=** 
   - after decryption id gives,
