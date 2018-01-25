@@ -31,10 +31,15 @@
 - **data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=**
   - after decryption data gives,
     - tr_cid 
-    - tr_mid
-    - tr_uid
-    - tr_aid
-    - tr_ts
+      - Eg.'18290'
+    - tr_mid  
+      - Eg.'4'
+    - tr_uid  
+      - Eg.'1'
+    - tr_aid  
+      - Eg.'2'
+    - tr_ts   
+      - Eg.'171121111040'
 - **client=18290**
 - **test=2**
  
