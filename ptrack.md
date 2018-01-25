@@ -5,12 +5,12 @@
 - client	:-To know clientid
 - test	:-It has 3 cases,
   - 0 - Live user test
-  - 1 - Automaton test
-  - 2 - Manual test
+  - 1 - Manual test
+  - 2 - Automaton test
 - u	:-Unique id
 - g	:-It has 2 cases,
-  - 0 - Gmail link tracking
-  - 1 - Non Gmail link tracking
+  - 0 - Non Gmail user tracking
+  - 1 - Gmail user tracking
 - m	:-Message id
 - eu	:-Encrypted user
 
