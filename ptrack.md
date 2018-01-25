@@ -13,21 +13,21 @@
   - 1 - Non Gmail link tracking
 - m	:-Message id
 - eu	:-Encrypted user
-#### For eg. http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2 
+#### For eg. *http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2* 
   In this Example,
-- id=eU4AAwEEAlYCUB0BVAkIUgcCBx8= 
+- **id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=** 
   - after decryption id gives,
     - msgtype
     - fwdid
     - messageid
     - userid
     - email
-- data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=
+- **data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=**
   - after decryption id gives,
     - tr_cid 
     - tr_mid
     - tr_uid
     - tr_aid
     - tr_ts
-- client=18290
-- test=2
+- **client=18290**
+- **test=2**
