@@ -47,3 +47,15 @@
 
 ## Subroutines of handle_ptrack
 - check_clientid_in_track
+- load_db_config
+- read_md5sum_for_link_decode
+- get_client_dbh
+- decode_uniqueid
+- get_click_url
+- read_url_from_client_db
+- check_for_mv_vm_links
+- redirect_click_url
+- log_data_in_redis
+- check_for_usertrack
+- get_trid_firstcol
+- return_single_pixel_img
