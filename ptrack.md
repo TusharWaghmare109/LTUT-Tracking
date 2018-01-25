@@ -14,9 +14,7 @@
 - m	:-Message id
 - eu	:-Encrypted user
 
-/play secret
-
-#### For eg. :scream: *http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2* 
+#### For eg. *http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2* 
   In this Example,
 - **id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=** 
   - after decryption id gives,
@@ -34,3 +32,7 @@
     - tr_ts
 - **client=18290**
 - **test=2**
+ 
+## Location :- /opt/transmail/libs/EMM/mailauth.pm
+## Subroutines of handle_ptrack
+- check_clientid_in_track
