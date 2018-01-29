@@ -44,7 +44,7 @@
 - **test=2**
 
 ### Open track and Broadcast example
-- http://ltlocal.netcore.co.in/ptrack?g=0&m=5&eu=AQIAAwEEAlYCUw==&u=4e34e3346310080acfc1a2eb114d0296&client=18290&test=2
+- *http://ltlocal.netcore.co.in/ptrack?g=0&m=5&eu=AQIAAwEEAlYCUw==&u=4e34e3346310080acfc1a2eb114d0296&client=18290&test=2
 - In this,
   - g=0
   - m=5
