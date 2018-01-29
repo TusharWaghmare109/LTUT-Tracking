@@ -30,15 +30,15 @@
       - Eg. 'gaurang.acharya@netcore.co.in'
 - **data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=**
   - after decryption data gives,
-    - tr_cid 
+    - tr_cid (track client id)
       - Eg.'18290'
-    - tr_mid  
+    - tr_m (track message id)
       - Eg.'4'
-    - tr_uid  
+    - tr_uid (track user id)
       - Eg.'1'
-    - tr_aid  
+    - tr_aid (track user-agent id)
       - Eg.'2'
-    - tr_ts   
+    - tr_ts (track transaction id)
       - Eg.'171121111040'
 - **client=18290**
 - **test=2**
@@ -49,8 +49,7 @@
   - g=0
   - m=5
   - eu=AQIAAwEEAlYCUw==
-    - After decryption eu gives,
-      - 
+    - #### After decryption 'eu' gives 'u' means user id 
   - u=4e34e3346310080acfc1a2eb114d0296 
   - client=18290 
   - test=2
@@ -60,6 +59,7 @@
 - In this,
   - u=X
   - data=AAoCCgEZBksDT1McVQ4JUwUDAlIFUlEHSAY=
+    - #### After decryption data gives tr_cid, tr_mid, tr_uid, tr_aid, tr_ts
   - client=18290
   - test=2
 
@@ -68,6 +68,7 @@
 - In this,
   - g=0
   - id=eU4AAwEEAlYCUB0BVAkIUgcCBh8=BR4CVkFEB1gEFlBbWVlHTlImVlVNWgpDAx5aDEpfXQ==
+    - After decryption id gives msgtype,fwdid,messageid,userid,email
   - client=18290 
   - test=2
 
@@ -75,7 +76,9 @@
 - http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2
 - In this,
   - id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=
+    - After decryption id gives msgtype,fwdid,messageid,userid,email
   - data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=
+    - #### After decryption data gives tr_cid, tr_mid, tr_uid, tr_aid, tr_ts
   - client=18290 
   - test=2
 
