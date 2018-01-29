@@ -42,7 +42,41 @@
       - Eg.'171121111040'
 - **client=18290**
 - **test=2**
- 
+
+### Open track and Broadcast example
+- http://ltlocal.netcore.co.in/ptrack?g=0&m=5&eu=AQIAAwEEAlYCUw==&u=4e34e3346310080acfc1a2eb114d0296&client=18290&test=2
+- In this,
+  - g=0
+  - m=5
+  - eu=AQIAAwEEAlYCUw==
+  - u=4e34e3346310080acfc1a2eb114d0296 
+  - client=18290 
+  - test=2
+
+### Open track and Automation example
+- http://ltlocal.netcore.co.in/ptrack?u=X&data=AAoCCgEZBksDT1McVQ4JUwUDAlIFUlEHSAY=&client=18290&test=2
+- In this,
+  - u=X
+  - data=AAoCCgEZBksDT1McVQ4JUwUDAlIFUlEHSAY=
+  - client=18290
+  - test=2
+
+### Link track and Broadcast example
+- http://ltlocal.netcore.co.in/ptrack?g=0&id=eU4AAwEEAlYCUB0BVAkIUgcCBh8=BR4CVkFEB1gEFlBbWVlHTlImVlVNWgpDAx5aDEpfXQ==&client=18290&test=2
+- In this,
+  - g=0
+  - id=eU4AAwEEAlYCUB0BVAkIUgcCBh8=BR4CVkFEB1gEFlBbWVlHTlImVlVNWgpDAx5aDEpfXQ==
+  - client=18290 
+  - test=2
+
+### Link track and Automation example
+- http://ltlocal.netcore.co.in/ptrack?id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=&data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=&client=18290&test=2
+- In this,
+  - id=eU4AAwEEAlYCUB0BVAkIUgcCBx8=
+  - data=BVpXDgQbUhtSFQMVAA8EBgFXCQEICVEBGgA=
+  - client=18290 
+  - test=2
+
 ## Location :- /opt/transmail/libs/EMM/mailauth.pm
 
 ## Subroutines of handle_ptrack
